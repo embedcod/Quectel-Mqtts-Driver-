@@ -34,18 +34,18 @@
 #define BUF_SIZE 832
 
 // Thingsboard host
-#define MQTT_BROKER "thingsboard.iot.songa.mobi"
+#define MQTT_BROKER "demo.thingsboard.io"
 #define MQTT_PORT 1883
 
 // Device provisioning credentials
 extern char HUB_NAME[32];
 extern char deviceSerial[12];		
 #define DEVICE_NAME HUB_NAME
-#define PROVISION_KEY "6zkd4o893mzqyer8i8b6"
-#define PROVISION_SECRET "3c0858ou7o6eztfcprsm"
+#define PROVISION_KEY ""
+#define PROVISION_SECRET ""
 #define CREDENTIALS_TYPE "MQTT_BASIC"
-#define MQTT_USERNAME "hub_controller" 
-#define MQTT_PASSWORD "hub_controller" 
+#define MQTT_USERNAME "" 
+#define MQTT_PASSWORD "" 
 #define MQTT_CLIENT_ID deviceSerial  		
 // Device pre-provisioning credentials
 #define MQTT_PROV_USERNAME "provision" 
